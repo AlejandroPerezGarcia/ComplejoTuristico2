@@ -4,8 +4,5 @@
   "eslint.validate": [
     "javascript", // Linter valida JS
     "html" // Linter valida HTML
-  ],
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  ]
 }

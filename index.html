@@ -11,14 +11,151 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
-
   <body>
+    <!-- Inicio Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="nombreGrupo ms-4 mt-1 fs-2" href="#"
+          >Hoteles <strong>CASA LLENA</strong></a
+        >
+        <button
+          class="navbar-toggler mx-4 my-2 my-sm-0 ms-sm-auto me-sm-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-underline ms-auto me-4 mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Hoteles</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Novedades</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+          <button
+            class="botonEntrar btn me-4 mt-3 mt-lg-0 mb-4 mb-lg-0"
+            type="submit"
+          >
+            Entrar <i class="bi bi-person-circle ms-1"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin Navbar -->
+
+    <!-- Inicio Carousel -->
+    <section class="CarouselUno mb-4">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade px-4"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="rounded-5 carousel-inner">
+          <div class="carouselImagenUno carousel-item active">
+            <img
+              src="./assets/img/toma-aerea-centro-angeles-noche-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="textoImagen fs-3">
+              <strong
+                >Lorem ipsum dolor sit <br />
+                amet consectetur.
+              </strong>
+            </div>
+          </div>
+          <div class="carouselImagenUno carousel-item">
+            <img
+              src="./assets/img/hotel2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="textoImagen fs-3">
+              <strong
+                >Lorem ipsum dolor sit <br />
+                amet consectetur.
+              </strong>
+            </div>
+          </div>
+          <div class="carouselImagenUno carousel-item">
+            <img
+              src="./assets/img/hotel3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="textoImagen fs-3">
+              <strong
+                >Lorem ipsum dolor sit <br />
+                amet consectetur.
+              </strong>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Fin Carousel -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/js/script.js"></script>
   </body>
 </html>
