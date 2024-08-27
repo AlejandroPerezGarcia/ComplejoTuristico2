@@ -123,16 +123,22 @@ body {
 
 /* Layout */
 
+.carrosel1 {
+  padding-left: 50px;
+}
+
 #carousel {
   width: 60%;
   height: 80vh;
   background-color: white;
   display: inline-block;
+  padding: 30px;
 }
 
 #aside {
+  padding: 30px;
   width: 35%;
-  height: 53vh;
+  height: 55vh;
   background-color: #f3f8f9;
   display: inline-block;
 }
@@ -161,7 +167,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f1f7f7;
   margin: 0;
-  padding: 0;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -235,4 +241,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.button2 {
+  border-radius: 22px;
 }
