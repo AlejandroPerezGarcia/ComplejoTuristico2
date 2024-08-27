@@ -117,18 +117,9 @@ body {
 }
 
 /* INICIO CSS SECCION 3 MAXI */
-/* Reset */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
 
 /* Layout */
-h1 {
-  font-weight: bold;
-}
+
 #carousel {
   width: 60%;
   height: 80vh;
@@ -138,7 +129,7 @@ h1 {
 
 #aside {
   width: 35%;
-  height: 80vh;
+  height: 53vh;
   background-color: #f3f8f9;
   display: inline-block;
 }
@@ -159,7 +150,7 @@ h1 {
   max-width: auto;
   max-height: 82px;
 }
-/* FIN SECCION 3 */
+/* FIN SECCION Max */
 
 /* subscription */
 
