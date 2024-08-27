@@ -1,3 +1,242 @@
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+.contenedor-titulo-slides {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.card-img-top {
+  position: relative;
+}
+
+.card-newhotel {
+  margin-bottom: 1rem;
+}
+
+.precio {
+  position: absolute;
+  top: 70%;
+  right: 20px;
+  font-size: 2rem;
+  background-color: #fff;
+  padding: 0 0.7rem;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.booking {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #fff;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+
+.Newhotels-texto-card2 {
+  position: absolute;
+  color: #000000;
+  top: 15%;
+  left: 10%;
+  width: 70%;
+  font-size: 3rem;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #000000;
+  font-weight: 800;
+  color: #000000;
+}
+.container-icons {
+  color: #d0d0d0;
+  font-weight: 600;
+}
+.i-icono {
+  color: black;
+}
+.icono-span {
+  font-size: 0.6rem;
+}
+.new-hotels-title-linea {
+  height: 80px;
+  width: 1px;
+  background-color: #000000;
+  display: inline-block;
+}
+.new-hotels-title {
+  font-size: 50px;
+  font-weight: 800;
+  display: inline-block;
+}
+.new-hotels-title-span {
+  font-weight: 200;
+}
+@media (min-width: 576px) {
+  .card-newhotel {
+    width: 18rem;
+  }
+
+  .precio {
+    top: 230px;
+    right: 20px;
+    font-size: 1.5rem;
+
+    padding: 0 0.7rem;
+  }
+
+  .Newhotels-texto-card2 {
+    top: 15%;
+    left: 10%;
+    width: auto;
+    font-size: 2rem;
+  }
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: white;
+}
+.nombreGrupo {
+  color: rgb(186, 102, 63);
+  text-decoration: none;
+}
+.botonEntrar {
+  background-color: rgb(28, 28, 81);
+  color: white;
+}
+
+/* CAROUSEL */
+.carouselImagenUno {
+  position: relative;
+  display: inline-block;
+}
+.textoImagen {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  color: white;
+}
+
+/* INICIO CSS SECCION 3 MAXI */
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Layout */
+h1 {
+  font-weight: bold;
+}
+#carousel {
+  width: 60%;
+  height: 80vh;
+  background-color: white;
+  display: inline-block;
+}
+
+#aside {
+  width: 35%;
+  height: 80vh;
+  background-color: #f3f8f9;
+  display: inline-block;
+}
+
+#h5 {
+  display: inline-block;
+}
+
+#button {
+  position: relative;
+}
+
+.carousel-item > img {
+  max-height: 370px;
+}
+
+.image-card > img {
+  max-width: auto;
+  max-height: 82px;
+}
+/* FIN SECCION 3 */
+
+/* subscription */
+
+.subscription {
+  font-family: Arial, sans-serif;
+  background-color: #f1f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+}
+
+.subscription h2 {
+  font-size: 2em;
+  color: #333;
+  margin: 20px 0;
+}
+
+.sub {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.logos img {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.subscription h2 {
+  font-size: 2em;
+  color: #333;
+  margin: 20px 0;
+}
+
+.subscription p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-form input[type='email'] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 250px;
+}
+
+.subscription-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscription-form button:hover {
+  background-color: #555;
+}
+
 .socialmedia {
   background-color: #f4f1f100;
 }
