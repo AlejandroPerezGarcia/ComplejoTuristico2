@@ -1,14 +1,17 @@
 body {
   font-family: 'Lexend', sans-serif;
 }
+
 .contenedor-titulo-slides {
   display: flex;
   justify-content: left;
   align-items: center;
 }
+
 .card-img-top {
   position: relative;
 }
+
 .card-newhotel {
   margin-bottom: 1rem;
 }
@@ -232,4 +235,13 @@ h1 {
 
 .subscription-form button:hover {
   background-color: #555;
+}
+
+.socialmedia {
+  background-color: #f4f1f100;
+}
+.contenedorsuperior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
