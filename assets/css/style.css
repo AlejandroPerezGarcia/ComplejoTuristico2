@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Lexend', sans-serif;
 }
@@ -89,3 +90,75 @@ body {
     font-size: 2rem;
   }
 }
+
+/* NAVBAR */
+.navbar {
+  background-color: white;
+}
+.nombreGrupo {
+  color: rgb(186, 102, 63);
+  text-decoration: none;
+}
+.botonEntrar {
+  background-color: rgb(28, 28, 81);
+  color: white;
+}
+
+/* CAROUSEL */
+.carouselImagenUno {
+  position: relative;
+  display: inline-block;
+}
+.textoImagen {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  color: white;
+}
+
+/* INICIO CSS SECCION 3 MAXI */
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Layout */
+h1 {
+  font-weight: bold;
+} 
+#carousel {
+  width: 60%;
+  height: 80vh;
+  background-color: white;
+  display: inline-block;
+}
+
+#aside {
+  width: 35%;
+  height: 80vh;
+  background-color: #F3F8F9;
+  display: inline-block;
+
+}
+
+#h5 {
+  display: inline-block;
+}
+
+#button {
+ position: relative;
+}
+
+.carousel-item > img  {
+  max-height: 370px;
+}
+
+.image-card > img {
+  max-width: auto;
+  max-height: 82px;
+}
+/* FIN SECCION 3 */
+
