@@ -1,3 +1,96 @@
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
+.contenedor-titulo-slides {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.card-img-top {
+  position: relative;
+}
+.card-newhotel {
+  margin-bottom: 1rem;
+}
+.precio {
+  position: absolute;
+  top: 70%;
+  right: 20px;
+  font-size: 2rem;
+  background-color: #fff;
+  padding: 0 0.7rem;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.booking {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #fff;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+
+.Newhotels-texto-card2 {
+  position: absolute;
+  color: #000000;
+  top: 15%;
+  left: 10%;
+  width: 70%;
+  font-size: 3rem;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #000000;
+  font-weight: 800;
+  color: #000000;
+}
+.container-icons {
+  color: #d0d0d0;
+  font-weight: 600;
+}
+.i-icono {
+  color: black;
+}
+.icono-span {
+  font-size: 0.6rem;
+}
+.new-hotels-title-linea {
+  height: 80px;
+  width: 1px;
+  background-color: #000000;
+  display: inline-block;
+}
+.new-hotels-title {
+  font-size: 50px;
+  font-weight: 800;
+  display: inline-block;
+}
+.new-hotels-title-span {
+  font-weight: 200;
+}
+@media (min-width: 576px) {
+  .card-newhotel {
+    width: 18rem;
+  }
+
+  .precio {
+    top: 230px;
+    right: 20px;
+    font-size: 1.5rem;
+
+    padding: 0 0.7rem;
+  }
+
+  .Newhotels-texto-card2 {
+    top: 15%;
+    left: 10%;
+    width: auto;
+    font-size: 2rem;
+  }
+}
+
 /* NAVBAR */
 .navbar {
   background-color: white;
@@ -68,3 +161,4 @@ h1 {
   max-height: 82px;
 }
 /* FIN SECCION 3 */
+
